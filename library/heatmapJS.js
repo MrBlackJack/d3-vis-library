@@ -39,8 +39,6 @@ var viz = function ($element, layout, _this, h) {
         container: document.getElementById("HeatMap")
     });
 
-    //heatmapInstance.configure(Config);
-
     var maxValue = d3.max(data, function (d) {
         return +d.measure(1).qNum;
     });
