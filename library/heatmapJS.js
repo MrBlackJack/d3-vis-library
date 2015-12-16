@@ -30,8 +30,8 @@ var viz = function ($element, layout, _this, h) {
         .attr("height", height)
         .attr("style", "position: absolute; left: 0px; top: 0px;");
 
-    console.log('w: ' + width);
-    console.log('h: ' + height);
+    //console.log('w: ' + width);
+    //console.log('h: ' + height);
 
     /*Real shit*/
     var data = layout.qHyperCube.qDataPages[0].qMatrix;
