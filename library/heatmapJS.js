@@ -36,10 +36,7 @@ var viz = function ($element, layout, _this, h) {
     /*Real shit*/
     var data = layout.qHyperCube.qDataPages[0].qMatrix;
     var heatmapInstance = h.create({
-        container: document.getElementById("HeatMap")//,
-        /*maxOpacity: .25,
-        minOpacity: 0,
-        blur: .75*/
+        container: document.getElementById("HeatMap")
     });
 
     //heatmapInstance.configure(Config);
