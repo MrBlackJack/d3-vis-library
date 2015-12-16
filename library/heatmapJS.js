@@ -21,6 +21,8 @@ var viz = function ($element, layout, _this, h) {
 
     extension.append("img")
         .attr("class", "img-heatmap")
+        .attr("width", width - 20)
+        .attr("height", height)
         .attr("src", urlImage);
 
     extension.append("canvas")
